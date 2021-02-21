@@ -10,8 +10,6 @@
  *
  */
 
-const a = 123;
-
 function swap(arr, a, b) {
   const temp = arr[a];
   arr[a] = arr[b];
