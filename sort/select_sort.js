@@ -24,10 +24,10 @@ function select_sort(arr) {
 
   let index;
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length - 1; i++) {
     min = Number.MAX_SAFE_INTEGER;
 
-    for (let j = i; j < arr.length; j++) {
+    for (let j = i; j < arr.length - 1; j++) {
       if (min > arr[j]) {
         min = arr[j];
         index = j;
